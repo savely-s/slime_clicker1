@@ -64,8 +64,8 @@ class MainActivity : AppCompatActivity() {
 //                }
 
         NPC(mag, 3, 50,"Недостаточно бабок, чтобы купить деда!")
-NPC()
-
+        NPC(soldier, 2, 25,"Недастаточно голды, чтобы купить воина!")
+        NPC(killer, 5, 150,"Недастаточно голды, чтобы купить убийцу дроконов!")
         if (DPS >= 0) {
             MainScope().launch {
                 while (DPS >= 0) {
